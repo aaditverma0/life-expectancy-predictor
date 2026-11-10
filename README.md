@@ -23,12 +23,12 @@ pip install -r requirements.txt
 - Used data modeling techniques to predict life expectancy.
 - Evaluated model accuracy based on health and economic factors.
 ## 👥 Team & Roles
-| Name | Role | GitHub Handle |
-| --- | --- | --- |
-| Aadit Verma | Execution Lead | @aaditverma0 |
-| Garima Gautam | Documentation Lead | @garima-2708 |
-| PPT Lead | PPT Lead | - |
-| Video Lead | Video Lead | - |
+| Name | Entry number | Role | GitHub Handle |
+| --- | --- | --- | --- |
+| Aadit Verma | 2026ESB1472 | Execution Lead | @aaditverma0 |
+| Garima Gautam | 2026AIB1036 | Documentation Lead | @garima-2708 |
+| PPT Lead | 2026EEB1379 | PPT Lead | - |
+| Video Lead | 2024MCB1297 | Video Lead | - |
 
 ## 🤖 AI Use Disclosure
 AI tools were used to assist in structuring documentation, code generation, and error troubleshooting during the development of this project.
