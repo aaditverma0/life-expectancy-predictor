@@ -8,8 +8,8 @@ The Life Expectancy Predictor is a project designed to analyze health, economic,
 | --- | --- | --- | --- |
 | Aadit Verma | 2026ESB1472 | Execution Lead | @aaditverma0 |
 | Garima Gautam | 2026AIB1036 | Documentation Lead | @garima-2708 |
-| Mishika | 2026EEB1379 | PPT Lead | Mishika1379 |
-| Jayant Kumar Nanda | 2024MCB1297 | Video Lead | jayantkunanda |
+| Mishika | 2026EEB1379 | PPT Lead | @Mishika1379 |
+| Jayant Kumar Nanda | 2024MCB1297 | Video Lead | @jayantkunanda |
 
 ## Contributions in code
 All four members contributed code (see commit history)
@@ -21,9 +21,9 @@ life-expectancy-predictor/
 ├── Data/
 │   └── Life Expectancy Data.csv
 ├── notebooks/
-│   ├── data_exploration_and_pre-proc...ipynb
+│   ├── data_exploration_and_pre-processing.ipynb
 │   ├── main.ipynb
-│   ├── splitting_and_model_building.ip...ipynb
+│   ├── splitting_and_model_building.ipynb
 │   └── validation_evaluation_ppt.ipynb
 ├── .gitignore
 ├── README.md
