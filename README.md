@@ -64,8 +64,10 @@ With the virtual environment activated, from the project root:
 ```bash  
 jupyter notebook  
 ```  
-  
 Open `notebooks/main.ipynb` and choose **Kernel > Restart & Run All**. If Jupyter asks for a kernel, choose "Python 3 (ipykernel)". The notebooks find the dataset through the relative path `Data/Life Expectancy Data.csv`, so they work whether Jupyter starts in the project root or in the `notebooks` folder. 
+
+## Expected Output
+<img width="752" height="622" alt="Screenshot 2026-11-11 233030" src="https://github.com/user-attachments/assets/cd48c278-97c0-4f56-a0cc-8ef9c58dff72" />
 
 ## Links 
 1. PPT Link : https://drive.google.com/file/d/1EdDB_S_RVq5ClF8U8vujg0DtIKMd5Yct/view?usp=sharing
