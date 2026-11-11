@@ -74,5 +74,10 @@ Open `notebooks/main.ipynb` and choose **Kernel > Restart & Run All**. If Jupyte
 - Used data modeling techniques to predict life expectancy.
 - Evaluated model accuracy based on health and economic factors.
 
-## 🤖 AI Use Disclosure
-AI tools were used to assist in structuring documentation, code generation, and error troubleshooting during the development of this project.
+## AI Use Disclosure
+
+- **Gemini / ChatGPT:** Used for drafting and formatting the documentation structure, error troubleshooting during environment setup, and debugging code syntax errors.
+- **Verification:** All course-related data modeling code was implemented based on classroom lectures. AI suggestions were reviewed, tested, and verified before inclusion.
+- No AI was used to generate or modify the dataset or final results.
+
+
