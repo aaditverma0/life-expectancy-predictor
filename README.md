@@ -55,7 +55,10 @@ python -m venv venv        # or: py -3 -m venv venv
 venv\Scripts\Activate.ps1  
 python -m pip install -r requirements.txt  
 ```  
-If PowerShell says running scripts is disabled, run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once, or use Command Prompt and run `venv\Scripts\activate.bat` instead. On Debian/Ubuntu, if creating the venv fails, run `sudo apt install python3-venv`.  
+If PowerShell says running scripts is disabled, 
+run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once, 
+or use Command Prompt and run `venv\Scripts\activate.bat` instead. 
+On Debian/Ubuntu, if creating the venv fails, run `sudo apt install python3-venv`.  
   
 ## How to run  
   
