@@ -15,22 +15,58 @@ The Life Expectancy Predictor is a project designed to analyze health, economic,
 All four members contributed code (see commit history)
 
 ## Project Structure
-- Data/: Contains the WHO Life Expectancy data file.
-- notebooks/: Contains files for data cleaning, analysis, and building the model.
-- requirements.txt: List of tools and libraries needed to run the project.
 
-## How to Setup
-To run this project on your computer, install the required packages:
-pip install -r requirements.txt
+```text
+life-expectancy-predictor/
+├── Data/
+│   └── Life Expectancy Data.csv
+├── notebooks/
+│   ├── data_exploration_and_pre-proc...ipynb
+│   ├── main.ipynb
+│   ├── splitting_and_model_building.ip...ipynb
+│   └── validation_evaluation_ppt.ipynb
+├── .gitignore
+├── README.md
+└── requirements.txt
 
-## How to Run
-1. Clone the project folder:
-   git clone https://github.com/aaditverma0/life-expectancy-predictor.git
-2. Go into the project folder:
-   cd life-expectancy-predictor
-3. Open and run the file inside the notebooks folder.
+## 4. Setup  
+  
+Requires **Python 3.12 or newer**. Developed with Python 3.13.14.  
+  
+```bash  
+git clone https://github.com/aaditverma0/life-expectancy-predictor.git  
+cd life-expectancy-predictor  
+```  
+  
+Create and activate a virtual environment, then install the requirements.  
+  
+**macOS / Linux**  
+```bash  
+python3 -m venv venv  
+source venv/bin/activate  
+python -m pip install -r requirements.txt  
+```  
+  
+**Windows (PowerShell)**  
+```powershell  
+python -m venv venv        # or: py -3 -m venv venv  
+venv\Scripts\Activate.ps1  
+python -m pip install -r requirements.txt  
+```  
+If PowerShell says running scripts is disabled, run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once, or use Command Prompt and run `venv\Scripts\activate.bat` instead. On Debian/Ubuntu, if creating the venv fails, run `sudo apt install python3-venv`.  
+  
+## 5. How to run  
+  
+With the virtual environment activated, from the project root:  
+  
+```bash  
+jupyter notebook  
+```  
+  
+Open `notebooks/main.ipynb` and choose **Kernel > Restart & Run All**. If Jupyter asks for a kernel, choose "Python 3 (ipykernel)". The notebooks find the dataset through the relative path `Data/Life Expectancy Data.csv`, so they work whether Jupyter starts in the project root or in the `notebooks` folder. 
 
 ## Links 
+1. PPT Link : https://drive.google.com/file/d/1EdDB_S_RVq5ClF8U8vujg0DtIKMd5Yct/view?usp=sharing
 
 ## Summary of Results
 - Used data modeling techniques to predict life expectancy.
