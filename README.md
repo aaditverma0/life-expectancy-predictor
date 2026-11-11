@@ -28,8 +28,10 @@ life-expectancy-predictor/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
-## 4. Setup  
+
+## Setup 
   
 Requires **Python 3.12 or newer**. Developed with Python 3.13.14.  
   
@@ -55,7 +57,7 @@ python -m pip install -r requirements.txt
 ```  
 If PowerShell says running scripts is disabled, run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once, or use Command Prompt and run `venv\Scripts\activate.bat` instead. On Debian/Ubuntu, if creating the venv fails, run `sudo apt install python3-venv`.  
   
-## 5. How to run  
+## How to run  
   
 With the virtual environment activated, from the project root:  
   
