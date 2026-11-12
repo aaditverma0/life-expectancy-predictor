@@ -74,6 +74,7 @@ Open `notebooks/main.ipynb` and choose **Kernel > Restart & Run All**. If Jupyte
 
 ## Links 
 1. PPT Link : https://drive.google.com/file/d/1EdDB_S_RVq5ClF8U8vujg0DtIKMd5Yct/view?usp=sharing
+2. Video link : https://drive.google.com/drive/folders/1Mgb4OXFwSYZBw6UwL8cdDyWNVr4aQYMY
 
 ## Summary of Results
 - Used data modeling techniques to predict life expectancy.
